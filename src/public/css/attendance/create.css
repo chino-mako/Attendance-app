@@ -1,0 +1,78 @@
+.attendance-wrapper {
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+.status-label {
+    background-color: #dcdcdc;
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    display: inline-block;
+    font-weight: bold;
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.date {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.time {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.action-btn {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
+.completed {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.links {
+    margin-top: 2rem;
+}
+
+.links a,
+.link-btn {
+    display: block;
+    margin: 0.5rem 0;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.link-btn:hover,
+.links a:hover {
+    text-decoration: underline;
+}
+
+.error p {
+    color: red;
+    margin: 0.5rem 0;
+}
