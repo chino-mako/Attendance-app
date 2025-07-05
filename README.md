@@ -1,6 +1,6 @@
 # 環境構築
 ## Dockerビルド
-- git clone git@github.com:chino-mako/Attendance-app.git
+- git clone https://github.com/chino-mako/Attendance-app
 - docker-compose up -d --build
 
 ## Laravel 環境構築
